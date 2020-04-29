@@ -1,10 +1,4 @@
-/* 
 
-Avalon Template 
-
-http://www.templatemo.com/tm-513-avalon
-
-*/
 
 * {
     margin: 0;
@@ -101,6 +95,9 @@ p {
 	font-weight: 300;
 	color: #fff;
 	line-height: 70px;
+	display: block;
+	height: 300px;
+	overflow: auto
 }
 
 .left-banner-content .line-dec {
