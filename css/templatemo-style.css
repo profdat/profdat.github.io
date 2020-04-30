@@ -33,6 +33,7 @@ p {
 	font-weight: 700;
 	text-decoration: none;
 	transition: all 0.5s;
+	a
 }
 
 .pink-button a {
