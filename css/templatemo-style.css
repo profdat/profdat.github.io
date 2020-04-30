@@ -237,28 +237,6 @@ p {
 	height: 550px;
 }
 
-.best-offer .col-md-82 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-.best-offer-right-content2 {
-	background-color: #bfd8d2;
-	padding: 40px;
-	padding-bottom: 70px; 
-	min-height: 40px;
-	height: 40px;
-}
-
-	.best-offer-right-content2 h2 {
-		margin-top: 0px;
-		font-size: 32px;
-		font-weight: 300;
-		color: #121212;
-		line-height: 36px;
-		text-align: center;
-	}
-
 .best-offer-right-content h2 {
 	margin: 0px;
 	font-size: 32px;
@@ -344,24 +322,17 @@ p {
 	height: 600px;
 }
 
-.owl-testimonial2 {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	text-align: center;
-	background-color: #eee;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	min-height: 600px;
-	height: 600px;
-}
-
 #owl-testimonial .item {
 	text-align: center;
+    background-color: #eee;
+    background-size: cover;
+	background-position: center center;
+	min-height: 600px;
 }
 
 #owl-testimonial .item img {
 	width: 130px;
+    margin-top: 100px;
 }
 
 #owl-testimonial .item span {
@@ -416,6 +387,36 @@ p {
   -moz-border-radius: 20px;
   border-radius: 20px;
   background: #e86859;
+}
+
+.best-offer .col-md-82 {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.best-offer-right-content2 {
+	background-color: #bfd8d2;
+	padding: 40px;
+    padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 70px;
+	min-height: 40px;
+	height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+.best-offer-right-content2 h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -4px;
+	text-align: center;
+    font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 5px;
 }
 
 
@@ -574,6 +575,8 @@ transition-delay: 0.3s;
 
 .contact-us {
 	margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contact-us #contact {
@@ -678,7 +681,7 @@ transition-delay: 0.3s;
 
 footer {
 	height: 80px;
-	margin-top: 10px;	
+	margin-top: 10px;
 	background-color: #bfd8d2;
 	text-align: center;
 }
