@@ -1,8 +1,29 @@
-// Step 1: Use `publishConfig` option in your package.json
-"publishConfig": { "registry": "https://npm.pkg.github.com/" }
-
-// Step 2: Authenticate
-$ npm login --registry=https://npm.pkg.github.com/
-
-// Step 3: Publish
-$ npm publish
+{
+  "name": "profdat",
+  "version": "0.0.1",
+  "description": "Web page",
+  "author": "Frank Rodrígez López <fr2587@gmail.com>",
+  "keywords": 
+  "license": "MIT",
+  "main": "./dist/assets/scripts.min.js",
+  "bugs": {
+    "url": "https://github.com/profdat/profdat.github.io/issues"
+  },
+  "homepage": "https://github.com/profdat/profdat.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profdat/profdat.github.io.git"
+  }
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "~3.4.1",
+    "owl.carousel": "^2.3.4",
+  },
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": ">= 6.5.0",
+    "yarn": "NO LONGER USED - Please use npm"
+  },
+  "browserslist": "defaults"
+}
