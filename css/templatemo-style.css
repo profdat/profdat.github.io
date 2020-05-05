@@ -390,7 +390,7 @@ p {
 }
 
 .best-offer-right-content2 {
-	background-color: #bfd8d2;
+	background-color: #052D39;
 	padding: 40px;
     padding-right: 5px;
 	padding-left: 5px;
@@ -530,22 +530,22 @@ transition-delay: 0.3s;
 
 .first-service .front,
 .first-service .back {
-	background-color: rgba(244, 188, 81, 0.9);
+	background-color: #066775;
 }
 
 .second-service .front,
 .second-service .back {
-	background-color: rgba(243, 158, 75, 0.9);
+	background-color: #053849;
 }
 
 .third-service .front,
 .third-service .back {
-	background-color: rgba(185, 78, 94, 0.9);
+	background-color: #05576A;
 }
 
 .fourth-service .front,
 .fourth-service .back {
-	background-color: rgba(232, 104, 89, 0.9);
+	background-color: #052D39;
 }
 
 
