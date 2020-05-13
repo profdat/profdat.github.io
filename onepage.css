@@ -1,0 +1,144 @@
+/* ----------------------------------------------------------------
+	CSS Specific to the One Page Module
+
+	Some of the CSS Codes have been modified from the Original
+	style.css File to match the Minimal Styling of this Module
+
+	Version: 5.9.1
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------
+	Buttons
+---------------------------------------------------------------------------- */
+
+.button.button-border {
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+
+.button.button-border.button-large {
+	font-size: 15px;
+}
+
+.button.button-border.button-light {
+	border-color: #F9F9F9;
+	color: #F9F9F9;
+}
+
+.button.button-border.button-light:hover {
+	background-color: #F9F9F9;
+	color: #333;
+	text-shadow: none;
+}
+
+/* Border Form Design
+---------------------------------------------------------------------------- */
+
+.border-form-control {
+	height: 48px;
+	padding: 8px 4px;
+	font-size: 21px;
+	letter-spacing: 1px;
+	background-color: transparent !important;
+	border-top: transparent;
+	border-right: transparent;
+	border-left: transparent;
+	border-bottom-width: 1px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.border-form-control::-moz-placeholder { font-weight: 300; }
+.border-form-control:-ms-input-placeholder { font-weight: 300; }
+.border-form-control::-webkit-input-placeholder { font-weight: 300; }
+
+textarea.border-form-control {
+	resize: none;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
+/* Content Switch
+---------------------------------------------------------------------------- */
+
+
+.con-switch {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.con-switch .con-default,
+.con-switch .con-show {
+	display: block;
+	opacity: 1;
+	-webkit-transition: opacity .4s ease;
+	-o-transition: opacity .4s ease;
+	transition: opacity .4s ease;
+}
+
+.con-switch .con-show {
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+}
+
+.con-switch:hover .con-show { opacity: 1; }
+
+.con-switch:hover .con-default { opacity: 0; }
+
+/* ----------------------------------------------------------------------------
+	Responsive
+---------------------------------------------------------------------------- */
+
+
+@media (max-width: 991px) {
+
+	#logo { height: 70px !important; }
+
+	#header { min-height: 70px; }
+
+	#header.transparent-header:not(.sticky-header) #header-wrap {
+		background-color: #FFF;
+		border-bottom: 1px solid #EEE;
+	}
+
+	#header.transparent-header.dark:not(.sticky-header) #header-wrap {
+		background-color: #333;
+		border-bottom-color: rgba(255,255,255,0.1) !important;
+	}
+
+	#header.transparent-header:not(.hidden) + #slider,
+	#header.transparent-header:not(.hidden) + #page-title.page-title-parallax,
+	#header.transparent-header:not(.hidden) + #google-map,
+	#slider + #header.transparent-header:not(.hidden) {
+		top: 0;
+		margin-bottom: 0;
+	}
+
+	#primary-menu-trigger { top: 10px !important; }
+
+	#side-panel-trigger {
+		margin: 25px 0 !important;
+		right: 15px !important;
+	}
+
+	.dark #header.transparent-header #header-wrap,
+	.dark #header.semi-transparent #header-wrap,
+	#header.dark.transparent-header #header-wrap,
+	#header.dark.semi-transparent #header-wrap {
+		background-color: #333;
+		border-bottom-color: rgba(255,255,255,0.1);
+	}
+
+	.dark.overlay-menu #primary-menu:not(.not-dark) ul,
+	.overlay-menu #primary-menu.dark ul { background-color: transparent; }
+
+}
+
