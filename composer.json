@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/profdat.github.io",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "frankr",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    
+  }
+}
