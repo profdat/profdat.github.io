@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+
+    <!-- Hojas de estilos
+   ============================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style%20-%20053841-%20azul%20oscuro.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive-053841-azul-oscuro.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Estílos epecíficos del formulario de contacto -->
+    <link rel="stylesheet" href="onepage.css" type="text/css" />
+    <!-- / -->
+
+    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+
+</head>
+<body>
+
+<section id="section-contact" class="page-section">
+
+    <div class="heading-block title-center">
+        <h2>Contacte con nosotros.</h2>
+        <span>¿Tiene usted alguna pregunta? Contáctenos usando el formulario a continuación.</span>
+    </div>
+
+    <div class="container clearfix">
+
+        <div class="divcenter topmargin" style="max-width: 850px;">
+
+            <!-- Formulario de contacto
+            ============================================= -->
+            <div class="form-widget">
+
+                <div class="form-result"></div>
+
+                <form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/email.php" method="post" enctype="text/plain">
+
+                    <div class="form-process"></div>
+
+                    <div class="col_half">
+                        <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="required sm-form-control border-form-control required" placeholder="Nombre" />
+                    </div>
+                    <div class="col_half col_last">
+                        <input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Dirección de correo electrónico" />
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="col_one_third">
+                        <input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="required sm-form-control border-form-control" placeholder="Teléfono" />
+                    </div>
+
+                    <div class="col_two_third col_last">
+                        <input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control border-form-control" placeholder="Asunto" />
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="col_full">
+                        <textarea class="required sm-form-control border-form-control" id="template-contactform-message" name="template-contactform-message" rows="7" cols="30" placeholder="Su Mensaje"></textarea>
+                    </div>
+
+                    <div class="col_full center">
+                        <button class="button button-border button-circle t500 noleftmargin topmargin-sm" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Enviar mensaje</button>
+                        <br>
+                        <small style="display: block; font-size: 13px; margin-top: 15px;">Haremos todo lo posible para hablar con usted en un plazo de 6-8 horas laborables.</small>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="col_full hidden">
+                        <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+                    </div>
+
+                    <input type="hidden" name="prefix" value="template-contactform-">
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>  <!-- #Fin de la sección de contacto -->
+
+</body>
+</html>
