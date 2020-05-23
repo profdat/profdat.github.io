@@ -54,10 +54,39 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 	PHPMailer Initialization
 ---------------------------------------------------*/
 
-$mail = new PHPMailer();
+$mail = new PHPMailer( exception: true);
 
 /* Add your SMTP Codes after this Line */
 
+     $mail -> isSMTP();
+
+     $mail -> Host = 'smpt.gmail.com';
+     $mail -> Port = 587;
+
+     $mail -> SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;;
+
+     $mail -> SMTPAuth = true;
+
+     $mail -> Username = 'athendat.cu@gmail.com';
+     $mail -> Password = 'Palas_Atenea05.20';
+
+     $mail->setFrom('athendat.cu@gmail.com', 'Equipo de ATHENDAT');
+
+     $mail->addReplyTo('replyto@example.com', 'First Last')
+
+     //Set who the message is to be sent to
+     $mail->addAddress('whoto@example.com', 'John Doe');
+
+     //Set the subject line
+     $mail->Subject = 'PHPMailer GMail SMTP test'
+
+
+
+
+
+catch (Exception $exception) {
+        echo 'Algo salio mal', $exception -> getMessage();
+    }
 
 // End of SMTP
 
@@ -67,12 +96,12 @@ $mail = new PHPMailer();
 ---------------------------------------------------*/
 
 $message = array(
-	'success'			=> 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.',
-	'error'				=> 'Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.',
-	'error_bot'			=> 'Bot Detected! Form could not be processed! Please Try Again!',
-	'error_unexpected'	=> 'An <strong>unexpected error</strong> occured. Please Try Again later.',
-	'recaptcha_invalid'	=> 'Captcha not Validated! Please Try Again!',
-	'recaptcha_error'	=> 'Captcha not Submitted! Please Try Again.'
+	'success'			=> 'Hemos recibido su Mensaje <strong>sactifactoriamente</strong> le enviaremos una respuesta lo antes posible.',
+	'error'				=> '<strong>Correo no enviado</strong> debido a un error inesperado. Por Favor Inténtelo Nuevamente.',
+	'error_bot'			=> 'Bot Detectado! Formulario no procesado! Por Favor Inténtelo Nuevamente!',
+	'error_unexpected'	=> '<strong>Error Inesperado</strong>. Por Favor Inténtelo Más Tarde.',
+	'recaptcha_invalid'	=> 'Captcha no Valido! Por Favor Inténtelo Nuevamente!',
+	'recaptcha_error'	=> 'Captcha not Envidado! Por Favor Inténtelo Nuevamente.'
 );
 
 
@@ -158,9 +187,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	---------------------------------------------------*/
 
 	$autores	= ( !empty( $submits['autoresponder'] ) && $submits['autoresponder'] != 'false' ) ? true : false;
-	$ar_subject	= !empty( $submits['ar_subject'] ) ? $submits['ar_subject'] : 'Thanks for your Email';
-	$ar_title	= !empty( $submits['ar_title'] ) ? $submits['ar_title'] : 'Its so good to hear from You!';
-	$ar_message	= !empty( $submits['ar_message'] ) ? $submits['ar_message'] : 'Autoresponder Message';
+	$ar_subject	= !empty( $submits['ar_subject'] ) ? $submits['ar_subject'] : 'Gracias por su Correo';
+	$ar_title	= !empty( $submits['ar_title'] ) ? $submits['ar_title'] : 'Para Nosotros es un Placer Recibir su Mensaje!';
+	$ar_message	= !empty( $submits['ar_message'] ) ? $submits['ar_message'] : 'Auto Respuesta';
 
 	preg_match_all('#\{(.*?)\}#', $ar_message, $ar_matches);
 	if( !empty( $ar_matches[1] ) ) {
@@ -169,7 +198,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		}
 	}
 
-	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Copyrights &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. All Rights Reserved.';
+	$ar_footer	= !empty( $submits['ar_footer'] ) ? $submits['ar_footer'] : 'Derechos de Autor &copy; ' . date('Y') . ' <strong>SemiColonWeb</strong>. Todos los Derechos Reservados por PROFDAT.';
 
 	$mail->Subject = !empty( $submits['subject'] ) ? $submits['subject'] : 'Form Response from your Website';
 	$mail->SetFrom( $fromemail['email'] , $fromemail['name'] );
