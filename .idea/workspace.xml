@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f1510f3-6ab6-4efb-b265-f19e78466be6" name="Default Changelist" comment="Actualización 15.06.20">
+      <change beforePath="$PROJECT_DIR$/email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/OAuth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/PHPMailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/POP3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/SMTP.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="D:\Frank\Soft\Descargas\Programs\Composer-Setup.exe" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1borxB71ffpTC08wNSx9isdwEsZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f1510f3-6ab6-4efb-b265-f19e78466be6" name="Default Changelist" comment="" />
+      <created>1589309531306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589309531306</updated>
+      <workItem from="1589309534539" duration="6428000" />
+      <workItem from="1589372702666" duration="11307000" />
+      <workItem from="1589393303457" duration="2497000" />
+      <workItem from="1589910308457" duration="1495000" />
+      <workItem from="1589920410332" duration="875000" />
+      <workItem from="1589921619866" duration="1614000" />
+      <workItem from="1589983897906" duration="3597000" />
+      <workItem from="1589993477267" duration="1212000" />
+      <workItem from="1589995592764" duration="599000" />
+      <workItem from="1590005980656" duration="1471000" />
+      <workItem from="1592249165314" duration="3882000" />
+      <workItem from="1592332140665" duration="2293000" />
+      <workItem from="1592429745674" duration="64000" />
+      <workItem from="1592572379432" duration="518000" />
+    </task>
+    <task id="LOCAL-00001" summary="Actualización 15.06.20">
+      <created>1592251563779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592251563779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actualización 15.06.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualización 15.06.20" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589395809637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589395809637" />
+    <state x="736" y="402" width="447" height="386" key="ComposerInitDialogKey" timestamp="1589910479610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="402" width="447" height="386" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1589910479610" />
+    <state x="739" y="337" key="FileChooserDialogImpl" timestamp="1589910476600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="337" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589910476600" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1592332223166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592332223166" />
+    <state x="289" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592255828543">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="289" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592255828543" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1589309893417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1589309893417" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589311484408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589311484408" />
+    <state x="954" y="201" width="672" height="678" key="search.everywhere.popup" timestamp="1589395835731">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="954" y="201" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589395835731" />
+  </component>
+</project>
