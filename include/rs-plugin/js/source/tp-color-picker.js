@@ -2850,8 +2850,8 @@
 			}
 			
 			var wrap = $('<span class="rev-colorpicker"></span>').data('revcolorinput', $this),
-				box = $('<span class="rev-colorbox" />'),
-				btn = $('<span class="rev-colorbtn" />'),
+				box = $('<span class="rev-colorbox"></span>'),
+				btn = $('<span class="rev-colorbtn"></span>'),
 				cls = $this.attr('data-wrap-classes'),
 				wrapper = $this.attr('data-wrapper'),
 				ids = $this.attr('data-wrap-id'),

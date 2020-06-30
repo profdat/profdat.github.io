@@ -29,7 +29,7 @@ var prepOptions = function(o) {
 	
 	// PARALLAX FALLBACKS
 	if (o.parallaxLevels || o.parallaxBgFreeze) {
-		var p = new Object();		
+		var p = {};
 		p.type = o.parallax
 		p.levels = o.parallaxLevels;
 		p.bgparallax = o.parallaxBgFreeze == "on" ? "off" : "on";
@@ -61,9 +61,9 @@ var prepOptions = function(o) {
 
 	// NAVIGATION ARROW FALLBACKS
 	if (o.navigation===undefined) {
-		var n = new Object();
+		var n = {};
 		if (o.navigationArrows=="solo" || o.navigationArrows=="nextto") {
-			var a = new Object();
+			var a = {};
 			a.enable = true;
 			a.style = o.navigationStyle || "";
 			a.hide_onmobile = o.hideArrowsOnMobile==="on" ? true : false; 														
@@ -87,7 +87,7 @@ var prepOptions = function(o) {
 			n.arrows = a;
 		}
 		if (o.navigationType=="bullet") {
-			var b = new Object();
+			var b = {};
 			b.style = o.navigationStyle || "";
 			b.enable=true;
 			b.hide_onmobile = o.hideArrowsOnMobile==="on" ? true : false; 														
@@ -105,7 +105,7 @@ var prepOptions = function(o) {
 			n.bullets = b;
 		}
 		if (o.navigationType=="thumb") {
-			var t = new Object();
+			var t = {};
 			t.style=o.navigationStyle || "";
 			t.enable=true;
 			t.width=o.thumbWidth || 100;
@@ -160,7 +160,7 @@ var prepOptions = function(o) {
 	
 var prepLayerAnimations = function(container,opt) {
 			
-	var c = new Object(),
+	var c = {},
 		cw = container.width(),
 		ch = container.height();
 

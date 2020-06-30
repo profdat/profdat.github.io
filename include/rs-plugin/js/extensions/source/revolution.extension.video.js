@@ -692,7 +692,7 @@ jQuery.extend(true,_R, {
 
 function getStartSec(st) {						
 	return st == undefined ? -1 :jQuery.isNumeric(st) ? st : st.split(":").length>1 ? parseInt(st.split(":")[0],0)*60 + parseInt(st.split(":")[1],0) : st;
-};
+}
 
 // 	-	VIMEO ADD EVENT /////
 var addEvent = function(element, eventName, callback) {
@@ -1412,7 +1412,7 @@ var htmlvideoevents = function(_nc,opt,startnow) {
 
 var addVidtoList = function(_nc,opt) {
 
-	if (opt.playingvideos == undefined) opt.playingvideos = new Array();		
+	if (opt.playingvideos == undefined) opt.playingvideos = [];
 	
 	// STOP OTHER VIDEOS
 	if (_nc.data('stopallvideos')) {		

@@ -317,7 +317,7 @@
 				}				
 				t +=("---------------------------------------------------------")+"\n";
 				return t;
-			};					
+			}
 		},
 
 		
@@ -368,7 +368,7 @@
 			return this.each(function() {						
 				if (this.opt) {	
 					if (this.opt.callBackArray === undefined)
-						this.opt.callBackArray = new Array();
+						this.opt.callBackArray = [];
 					this.opt.callBackArray.push(callback);						
 				}
 			})
@@ -608,9 +608,9 @@ jQuery.extend(true, _R, {
 
 	compare_version : function(extension) {
 		var v = jQuery('body').data('tp_rs_version');
-		v = v === undefined ? new Object() : v;
+		v = v === undefined ? {} : v;
 		if (v.Core===undefined) {
-			v.Core = new Object();
+			v.Core = {};
 			v.Core.alias = "Slider Revolution Core";
 			v.Core.name = "jquery.themepunch.revolution.min.js";
 			v.Core.ver = _R.getversion().core;
@@ -641,7 +641,7 @@ jQuery.extend(true, _R, {
 		}
 		
 		if (v[extension.alias]===undefined) {
-			v[extension.alias] = new Object();
+			v[extension.alias] = {};
 			v[extension.alias].alias = extension.alias;
 			v[extension.alias].ver = extension.version;
 			v[extension.alias].name = extension.name;			
@@ -686,7 +686,7 @@ jQuery.extend(true, _R, {
 
 	//	-	CHECK IF BROWSER IS IE		-		
 	isIE : function( version, comparison ){
-	    var $div = jQuery('<div style="display:none;"/>').appendTo(jQuery('body'));
+	    var $div = jQuery('<div style="display:none;"></div>').appendTo(jQuery('body'));
 	    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;</a><![endif]-->');
 	    var ieTest = $div.find('a').length;
 	    $div.remove();
@@ -1060,7 +1060,7 @@ var lAjax = function(s,o) {
 
 
 var getNeededScripts = function(o,c) {	
-	var n = new Object(),
+	var n = {},
 		_n = o.navigation;
 	
 	n.kenburns = false;
@@ -1333,7 +1333,7 @@ var initSlider = function (container,opt) {
     opt.slayers.data('index','staticlayers');
 
     if (opt.waitForInit == true) 
-    	return;
+
     else {
     	container[0].opt = opt;    	
     	runSlider(container,opt);
@@ -1371,7 +1371,7 @@ var initSlider = function (container,opt) {
 
 	// RANDOMIZE THE SLIDER SHUFFLE MODE
 	if (opt.shuffle=="on") {		
-		var fsa = new Object,
+		var fsa = {},
 			fli = opt.ul.find('>li:first-child');
 		fsa.fstransition = fli.data('fstransition');
 		fsa.fsmasterspeed = fli.data('fsmasterspeed');
@@ -1396,12 +1396,12 @@ var initSlider = function (container,opt) {
 	opt.inli = opt.ul.find('>li.tp-invisible-slide');
 
 
-	opt.thumbs = new Array();		
+	opt.thumbs = [];
 	
 	opt.slots=4;
 	opt.act=-1;					
 	opt.firststart=1;
-	opt.loadqueue = new Array();
+	opt.loadqueue = [];
 	opt.syncload = 0;
 	opt.conw = container.width();
 	opt.conh = container.height();
@@ -1422,8 +1422,8 @@ var initSlider = function (container,opt) {
 		li.addClass("tp-revslider-slidesli");
 		if (li.data('index')===undefined) li.data('index','rs-'+Math.round(Math.random()*999999));
 
-		var obj = new Object;
-		obj.params = new Array();
+		var obj = {};
+		obj.params = [];
 		
 		obj.id = li.data('index');
 		obj.src = li.data('thumb')!==undefined ? li.data('thumb') : img.data('lazyload') !== undefined ? img.data('lazyload') : img.attr('src');					
@@ -1565,14 +1565,14 @@ var initSlider = function (container,opt) {
 					
 
 		// PREPARE VIDEO PLAYERS
-		var addedApis = new Object();			
+		var addedApis = {};
 		addedApis.addedyt=0;
 		addedApis.addedvim=0;
 		addedApis.addedvid=0;
 
 		//PREPARING FADE IN/OUT PARALLAX 
 		if (opt.scrolleffect.on) 
-			opt.scrolleffect.layers = new Array();			
+			opt.scrolleffect.layers = [];
 		
 		container.find('.tp-caption, .rs-background-video-layer').each(function(i) {
 			var _nc = jQuery(this),
@@ -1628,7 +1628,7 @@ var initSlider = function (container,opt) {
 				if (nctype==="column") {
 					specec = _ndata.verticalalign === undefined ?  " vertical-align:bottom;"  : " vertical-align:"+_ndata.verticalalign+";";					
 					preclas = "rev_column";
-					_nc.addClass("rev_column_inner").removeClass("tp-resizeme");;
+					_nc.addClass("rev_column_inner").removeClass("tp-resizeme");
 					_nc.data('width','auto');
 					punchgs.TweenLite.set(_nc,{width:'auto'});					
 				} else
@@ -1951,7 +1951,7 @@ var initSlider = function (container,opt) {
 var cArray = function(b,l) {		
 	if (!jQuery.isArray(b)) {
 		var t = b;
-		b = new Array();
+		b = [];
 		b.push(t);
 	}		
 	if (b.length<l) {			
@@ -2001,7 +2001,7 @@ var checkHoverDependencies = function(_nc,opt) {
 						if (_R.playAnimationFrame) _R.playAnimationFrame({caption:tnc,opt:opt,frame:"frame_999", triggerdirection:"out", triggerframein:"frame_0", triggerframeout:"frame_999"});	
 					});
 			});			
-			opt.layersonhover = new Array;
+			opt.layersonhover = [];
 		} 				
 		opt.layersonhover.push(_nc);
 	}
@@ -2264,7 +2264,7 @@ var prepareSlides = function(container,opt) {
 	})
 
 	if (opt.scrolleffect.on &&  opt.scrolleffect.on_slidebg==="on") {
-		opt.allslotholder = new Array();
+		opt.allslotholder = [];
 		opt.allli.find('.slotholder').each(function() {
 			jQuery(this).wrap('<div style="display:block;position:absolute;top:0px;left:0px;width:100%;height:100%" class="slotholder_fadeoutwrap"></div>')			
 		});
@@ -2398,7 +2398,7 @@ var addToLoadQueue = function(src,opt,prio,type,staticlayer) {
 		});
 		
 	if (!alreadyexist) {		
-			var loadobj = new Object();			
+			var loadobj = {};
 			loadobj.src = src;
 			loadobj.starttoload = jQuery.now();
 			loadobj.type = type || "img";
@@ -2427,7 +2427,7 @@ var loadImages = function(container,opt,prio,staticlayer) {
 
 // FIND SEARCHED IMAGE/SRC IN THE LOAD QUEUE
 var getLoadObj = function(opt,src) {	
-	var obj = new Object();
+	var obj = {};
 	if (opt.loadqueue)
 		jQuery.each(opt.loadqueue, function(index,queue) {			
 			if (queue.src == src) obj = queue;

@@ -72,7 +72,7 @@ jQuery.extend(true,_R, {
 
 		direction = direction === undefined  || direction=="down" || direction=="up" || direction===null || jQuery.isEmptyObject(direction) ? "left" : direction;
 		var _ = opt.carousel,
-			slidepositions = new Array(),
+			slidepositions = [],
 			len = _.slides.length,
 			leftlimit = _.horizontal_align ==="right" ? opt.width : 0;
 		
@@ -97,7 +97,7 @@ jQuery.extend(true,_R, {
 				pos = pos<0-_.inneroffset-_.slide_width ? direction=="left" ? pos + _.maxwidth :  direction==="right" ? slidepositions[len-1] + ((i+1)*_.slide_width) : pos : pos;			
 			}
 
-			var tr= new Object();	
+			var tr= {};
 
 			tr.left = pos + _.inneroffset;
 
@@ -283,7 +283,7 @@ var setCarouselDefaults = function(opt) {
 
 // DIRECTION CHECK
 var dircheck = function(d,b) {		
-	return d===null || jQuery.isEmptyObject(d) ? b : d === undefined ?  "right" : d;;
+	return d===null || jQuery.isEmptyObject(d) ? b : d === undefined ?  "right" : d;
 }
 
 // ANIMATE THE CAROUSEL WITH OFFSETS
@@ -292,7 +292,7 @@ var animateCarousel = function(opt,direction,nsae,speed) {
 	var _ = opt.carousel;
 	direction = _.lastdirection = dircheck(direction,_.lastdirection);		
 	
-	var animobj = new Object(),
+	var animobj = {},
 		_ease = nsae ? punchgs.Power2.easeOut : _.easing;
 
 	animobj.from = 0;

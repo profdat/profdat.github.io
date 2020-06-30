@@ -9213,7 +9213,7 @@ var table = (function () {
 
     var getClipboardRows = function (clipboardRows) {
       return clipboardRows.get().fold(function () {
-        return;
+
       }, function (rows) {
         return map(rows, function (row) {
           return row.dom();

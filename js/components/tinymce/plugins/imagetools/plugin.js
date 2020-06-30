@@ -1772,7 +1772,7 @@ var imagetools = (function () {
           }
           if (type === 'ASCII') {
             hash[tag] = self.STRING(offset, count).replace(/\0$/, '').trim();
-            continue;
+
           } else {
             values = self.asArray(type, offset, count);
             value = count == 1 ? values[0] : values;

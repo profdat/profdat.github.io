@@ -53,7 +53,7 @@
 					
 					var $this = tpj(this),
 					slotholder = $this.find('.slotholder');
-					slotholder.wrap('<div class="' + $this.attr("data-duotonefilter") + '" />');
+					slotholder.wrap('<div class="' + $this.attr("data-duotonefilter") + '"></div>');
 					
 				});
 				

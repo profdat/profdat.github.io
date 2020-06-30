@@ -28,7 +28,7 @@ jQuery.extend(true,_R, {
 
 		if (d.start!==undefined && !d.frames_added && d.frames===undefined) {		
 			
-			var frames = new Array(),			
+			var frames = [],
 				oin = getAnimDatas(newAnimObject(),d.transform_in,undefined, false),
 				oout = getAnimDatas(newAnimObject(),d.transform_out,undefined, false),
 				oh =  getAnimDatas(newAnimObject(),d.transform_hover,undefined, false);
@@ -154,7 +154,7 @@ jQuery.extend(true,_R, {
 			index = nextli.data('index');
 
 		// COLLECTION OF LAYERS
-		opt.layers = opt.layers || new Object();		
+		opt.layers = opt.layers || {};
 		opt.layers[index] = opt.layers[index] || nextli.find('.tp-caption');
 		opt.layers["static"] = opt.layers["static"] || opt.c.find('.tp-static-layers').find('.tp-caption');
 
@@ -392,7 +392,7 @@ jQuery.extend(true,_R, {
 			obj.offsety = _._gh/2 - (opt.gridheight[opt.curWinRange]*opt.bh)/2;
 
 		if (opt.autoHeight=="on" || (opt.minHeight!=undefined && opt.minHeight>0))
-			  obj.offsety = opt.conh/2 - (opt.gridheight[opt.curWinRange]*opt.bh)/2;;
+			  obj.offsety = opt.conh/2 - (opt.gridheight[opt.curWinRange]*opt.bh)/2;
 
 		if (obj.offsety<0) obj.offsety=0;
 		
@@ -680,7 +680,7 @@ jQuery.extend(true,_R, {
 			}
 				
 			
-		_.arrobj = new Object();
+		_.arrobj = {};
 		_.arrobj.voa = makeArray(_.voffset,opt)[opt.curWinRange] || makeArray(_.voffset,opt)[0];
 		_.arrobj.hoa = makeArray(_.hoffset,opt)[opt.curWinRange] || makeArray(_.hoffset,opt)[0];
 		_.arrobj.elx = makeArray(_.x,opt)[opt.curWinRange] || makeArray(_.x,opt)[0];
@@ -805,15 +805,15 @@ jQuery.extend(true,_R, {
 		
 		
 		// COLLECTION OF TIMELINES
-		opt.timelines = opt.timelines || new Object();				
+		opt.timelines = opt.timelines || {};
 				
 		function addTimeLineWithLabel(layer,opt,parentobject,slideid) {			
 			var timeline = new punchgs.TimelineLite({paused:true}),
 				c;
 				
 
-			parentobject = parentobject || new Object();
-			parentobject[layer.attr('id')] = parentobject[layer.attr('id')] || new Object();
+			parentobject = parentobject || {};
+			parentobject[layer.attr('id')] = parentobject[layer.attr('id')] || {};
 			if (slideid==="staticlayers") {
 				parentobject[layer.attr('id')].firstslide = layer.data('startslide');
 				parentobject[layer.attr('id')].lastslide = layer.data('endslide');				
@@ -838,7 +838,7 @@ jQuery.extend(true,_R, {
 				index = slide.data('index');
 			opt.timelines[index] = opt.timelines[index] || {};
 			
-			opt.timelines[index].layers = opt.timelines[index].layers || new Object();
+			opt.timelines[index].layers = opt.timelines[index].layers || {};
 			
 
 			// COLLECT LAYERS
@@ -950,7 +950,7 @@ jQuery.extend(true,_R, {
 
 					 		_.hovertimelines.pwhoveranim = punchgs.TweenLite.to(_._pw,frame.speed/1000,{overwrite:"auto",zIndex:_.hoverzIndex});
 					 		_.hovertimelines.pwhoveranim.eventCallback("onComplete",function(_) {					 			
-				 				_.inhoverinanimation=false;;
+				 				_.inhoverinanimation=false;
 				 			},[_])
 					 	}
 					 	if ($svg.svg)  					 		
@@ -978,7 +978,7 @@ jQuery.extend(true,_R, {
 				 		if (frame.speed==0) _.inhoveroutanimation= false;				 		
 				 		_.hovertimelines.item.eventCallback("onComplete",function(_) {
 				 	
-				 			_.inhoveroutanimation=false;;
+				 			_.inhoveroutanimation=false;
 				 		},[_])
 				 		if (_.hovertimelines.pwhoveranim!==undefined) _.hovertimelines.pwhoveranim = punchgs.TweenLite.to(_._pw,frame.speed/1000,{overwrite:"auto",zIndex:_.basiczindex}); 
 				 		if ($svg.svg) punchgs.TweenLite.to([$svg.svg, $svg.svg.find('path')],frame.speed/1000,_.idlesvg.anim);	 
@@ -1046,7 +1046,7 @@ jQuery.extend(true,_R, {
 				_nc_timeline.time(_.current_timeline_time);
 		}
 					
-		return;					
+
 	},
 
 	/////////////////////////////////////
@@ -1307,8 +1307,8 @@ jQuery.extend(true,_R, {
 		}
 						
 		if ((frame_index===0 && $mask_from && $mask_from!==false && !obj.fromcurrentstate) || (frame_index===0 && obj.ignorefirstframe)) {
-			$mask_to =  new Object();
-			$mask_to.anim = new Object();
+			$mask_to =  {};
+			$mask_to.anim = {};
 			$mask_to.anim.overwrite = "auto";	
 			$mask_to.anim.ease = $to.anim.ease;					
 			$mask_to.anim.x = $mask_to.anim.y = 0;
@@ -1431,7 +1431,7 @@ jQuery.extend(true,_R, {
 		if (_R.compare_version(extension).check==="stop") return false;	
 		var removetime = 0,
 			index = actli.data('index'),	
-			allcaptions = new Array;
+			allcaptions = [];
 		
 		// COLLECT ALL CAPTIONS		
 		if (opt.layers[index])
@@ -1620,7 +1620,7 @@ var shuffleArray = function(array) {
 }
 
 var getSplitTextDirs = function(alen,d) {
-	var ri = new Array();
+	var ri = [];
 
 	switch (d) {
 		case "forward":
@@ -1679,8 +1679,8 @@ var getCycles = function(anim) {
 //	-	CREATE ANIMATION OBJECT	-  //
 /////////////////////////////////////
 var newAnimObject = function(a) {
-	a = a===undefined ? new Object() : a;	
-	a.anim = a.anim===undefined ? new Object() : a.anim;
+	a = a===undefined ? {} : a;
+	a.anim = a.anim===undefined ? {} : a.anim;
 	a.anim.x = a.anim.x===undefined ? 0 : a.anim.x;
 	a.anim.y = a.anim.y===undefined ? 0 : a.anim.y;
 	a.anim.z = a.anim.z===undefined ? 0 : a.anim.z;
@@ -1709,8 +1709,8 @@ var newAnimObject = function(a) {
 }
 
 var newSVGHoverAnimObject = function() {
-	var a = new Object();
-	a.anim = new Object();
+	var a = {};
+	a.anim = {};
 	
 	a.anim.stroke="none";
 	a.anim.strokeWidth=0;
@@ -1739,8 +1739,8 @@ var setSVGAnimObject = function(data,a) {
 
 
 var newEndAnimObject = function() {
-	var a = new Object();
-	a.anim = new Object();	
+	var a = {};
+	a.anim = {};
 	a.anim.x=0;
 	a.anim.y=0;	
 	a.anim.z=0;
@@ -1748,8 +1748,8 @@ var newEndAnimObject = function() {
 }
 
 var newHoverAnimObject = function() {
-	var a = new Object();
-	a.anim = new Object();		
+	var a = {};
+	a.anim = {};
 	a.speed = 0.2;						
 	return a;
 }
@@ -1808,7 +1808,7 @@ var getBorderDirections = function (x,o,w,h,top,left,direction) {
 ///////////////////////////////////////////////////
 var getAnimDatas = function(frm,data,reversed,$split,$splitamount) {		
 	
-	var o = new Object();
+	var o = {};
 	o = jQuery.extend(true,{},o, frm);
 	if (data === undefined) 
 		return o;		
@@ -1885,8 +1885,8 @@ var getMaskDatas = function(d) {
 	if (d === undefined)
 		return false;
 
-	var o = new Object();	
-	o.anim = new Object();
+	var o = {};
+	o.anim = {};
 	var s = d.split(';')
 	if (s)
 		jQuery.each(s,function(index,param) {
@@ -1917,7 +1917,7 @@ var makeArray = function(obj,opt,show) {
 		obj = obj.replace("[","");
 		obj = obj.replace("]","");
 		var newobj = obj.match(/'/g) ? obj.split("',") : obj.split(",");
-		obj = new Array();
+		obj = [];
 		if (newobj)
 			jQuery.each(newobj,function(index,element) {
 				element = element.replace("'","");
@@ -1927,7 +1927,7 @@ var makeArray = function(obj,opt,show) {
 	} else {
 		var tempw = obj;			
 		if (!jQuery.isArray(obj) ) {
-			obj = new Array();				
+			obj = [];
 			obj.push(tempw);				
 		} 
 	}
@@ -1982,7 +1982,7 @@ var convertHoverStyle = function(t,s) {
 ////////////////////////////////////////////////
 var getcssParams = function(nc,level) {
 	
-	var obj = new Object(),
+	var obj = {},
 		gp = false,
 		pc;
 	
@@ -2092,7 +2092,7 @@ var getcssParams = function(nc,level) {
 
 // READ SINGLE OR ARRAY VALUES OF OBJ CSS ELEMENTS
 var setResponsiveCSSValues = function(obj,opt) {
-	var newobj = new Object();
+	var newobj = {};
 	if (obj)
 		jQuery.each(obj,function(key,val){						
 			var res_a = makeArray(val,opt)[opt.curWinRange];
@@ -2470,7 +2470,7 @@ var callCaptionLoops = function(el,factor) {
 				speed = el.data('speed')==undefined ? -20 : el.data('speed'),
 				origin = el.data('origin')==undefined ? "50% 50%" : el.data('origin'),
 				ors = origin.split(" "),
-				oo = new Object();
+				oo = {};
 
 				if (ors.length>=1) {
 					oo.x = ors[0];

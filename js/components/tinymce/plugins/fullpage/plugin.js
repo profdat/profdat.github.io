@@ -511,7 +511,7 @@ var fullpage = (function () {
         header += '<?xml version="1.0" encoding="' + (piEncoding ? piEncoding : 'ISO-8859-1') + '" ?>\n';
       }
       header += Settings.getDefaultDocType(editor);
-      header += '\n<html>\n<head>\n';
+      header += '\n<html>\n<head>\n<title></title>';
       if (value = Settings.getDefaultTitle(editor)) {
         header += '<title>' + value + '</title>\n';
       }

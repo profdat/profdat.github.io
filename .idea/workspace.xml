@@ -20,13 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f1510f3-6ab6-4efb-b265-f19e78466be6" name="Default Changelist" comment="Actualización 15.06.20">
-      <change beforePath="$PROJECT_DIR$/email.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/OAuth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/PHPMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/POP3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpmailer/phpmailer/SMTP.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.dev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-beforeafterslider1.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-beforeafterslider1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-distortion-addon.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-distortion-addon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-particle-effect-one1.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-particle-effect-one1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/revolution.addon.duotonefilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/revolution.addon.duotonefilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.kenburn.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.layeranimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.migration.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.slideanims.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.video.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-360-degree-panorama.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-360-degree-panorama.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-fitness-club-template3.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-fitness-club-template3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-mountain-parallax-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-mountain-parallax-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-overexposure-transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-overexposure-transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.themepunch.revolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/source/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/source/tp-color-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/source/tp-color-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/bbcode/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/fullpage/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/help/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/help/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/imagetools/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/preview/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/preview/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/table/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/table/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/template/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/template/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/themes/mobile/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/themes/mobile/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/themes/silver/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/themes/silver/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style - 053841- azul oscuro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style - EECA29 - amarillo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-import.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-rtl-vars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style-vars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.less" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +103,43 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/plugins.js" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager" selected="Node.js.plugins.js">
+    <configuration name="plugins.js" type="NodeJSConfigurationType" application-parameters="$AffectedModuleNames$" nameIsGenerated="true" node-parameters="$AffectedModuleNames$" path-to-js-file="js/plugins.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/js/components/tinymce/package.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/js/components/tinymce/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.plugins.js" />
+      <item itemvalue="npm.test" />
+    </list>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -94,6 +165,12 @@
       <workItem from="1592332140665" duration="2293000" />
       <workItem from="1592429745674" duration="64000" />
       <workItem from="1592572379432" duration="518000" />
+      <workItem from="1593226433602" duration="1159000" />
+      <workItem from="1593227796231" duration="607000" />
+      <workItem from="1593231143709" duration="1626000" />
+      <workItem from="1593267135939" duration="1468000" />
+      <workItem from="1593299306556" duration="4694000" />
+      <workItem from="1593485731249" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="Actualización 15.06.20">
       <created>1592251563779</created>
@@ -125,33 +202,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="Actualización 15.06.20" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589395809637">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="346" y="108" key="#Inspections" timestamp="1593227456796">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="346" y="108" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1593227456796" />
+    <state x="174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593267638949">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1593267638949" />
+    <state x="500" y="135" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1593267628838">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="135" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.860@0.0.1440.860" timestamp="1593267628838" />
+    <state x="539" y="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593231308363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="539" y="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.860@0.0.1440.860" timestamp="1593231308363" />
     <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589395809637" />
     <state x="736" y="402" width="447" height="386" key="ComposerInitDialogKey" timestamp="1589910479610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="402" width="447" height="386" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1589910479610" />
-    <state x="739" y="337" key="FileChooserDialogImpl" timestamp="1589910476600">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="587" y="180" width="631" height="499" key="EnvironmentVariablesDialog" timestamp="1593267638000">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="587" y="180" width="631" height="499" key="EnvironmentVariablesDialog/0.0.1440.860@0.0.1440.860" timestamp="1593267638000" />
+    <state x="506" y="236" key="FileChooserDialogImpl" timestamp="1593267999365">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="506" y="236" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1593267999365" />
     <state x="739" y="337" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589910476600" />
+    <state width="696" height="222" key="GridCell.Tab.0.bottom" timestamp="1593305637363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="696" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1593305637363" />
+    <state width="696" height="222" key="GridCell.Tab.0.center" timestamp="1593305637363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="696" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1593305637363" />
+    <state width="696" height="222" key="GridCell.Tab.0.left" timestamp="1593305637363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="696" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1593305637363" />
+    <state width="696" height="222" key="GridCell.Tab.0.right" timestamp="1593305637363">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="696" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1593305637363" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1592332223166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1592332223166" />
-    <state x="289" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592255828543">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="217" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593485840588">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="217" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.860@0.0.1440.860" timestamp="1593485840588" />
     <state x="289" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592255828543" />
     <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1589309893417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1589309893417" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1589311484408">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="462" y="198" key="run.anything.popup" timestamp="1593231175606">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="462" y="198" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1593231175606" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589311484408" />
     <state x="954" y="201" width="672" height="678" key="search.everywhere.popup" timestamp="1589395835731">
       <screen x="0" y="0" width="1920" height="1040" />

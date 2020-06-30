@@ -11334,7 +11334,7 @@
         return CaretFinder.firstPositionIn(elm.dom());
       }).fold(function () {
         editor.selection.normalize();
-        return;
+
       }, function (caretPos) {
         return editor.selection.setRng(caretPos.toRange());
       });
@@ -22931,7 +22931,7 @@
     };
     var getIframeHtml = function (editor) {
       var bodyId, bodyClass, iframeHTML;
-      iframeHTML = Settings.getDocType(editor) + '<html><head>';
+      iframeHTML = Settings.getDocType(editor) + '<html><head>><title></title></head>';
       if (Settings.getDocumentBaseUrl(editor) !== editor.documentBaseUrl) {
         iframeHTML += '<base href="' + editor.documentBaseURI.getURI() + '" />';
       }
@@ -23766,15 +23766,15 @@
     };
     var deleteCommand = function (editor) {
       if (CefDelete.backspaceDelete(editor, false)) {
-        return;
+
       } else if (InlineBoundaryDelete.backspaceDelete(editor, false)) {
-        return;
+
       } else if (BlockBoundaryDelete.backspaceDelete(editor, false)) {
-        return;
+
       } else if (TableDelete.backspaceDelete(editor)) {
-        return;
+
       } else if (BlockRangeDelete.backspaceDelete(editor, false)) {
-        return;
+
       } else {
         nativeCommand(editor, 'Delete');
         DeleteUtils.paddEmptyBody(editor);
@@ -23782,15 +23782,15 @@
     };
     var forwardDeleteCommand = function (editor) {
       if (CefDelete.backspaceDelete(editor, true)) {
-        return;
+
       } else if (InlineBoundaryDelete.backspaceDelete(editor, true)) {
-        return;
+
       } else if (BlockBoundaryDelete.backspaceDelete(editor, true)) {
-        return;
+
       } else if (TableDelete.backspaceDelete(editor)) {
-        return;
+
       } else if (BlockRangeDelete.backspaceDelete(editor, true)) {
-        return;
+
       } else {
         nativeCommand(editor, 'ForwardDelete');
       }

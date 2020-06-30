@@ -68,10 +68,10 @@ jQuery.extend(true,_R, {
 			punchgs.TweenLite.set(opt.c.find('.tp-static-layers'),{top:0, left:0,width:"100%",height:"100%"});
 			setDDDInContainer(opt.c.find('.tp-static-layers'));
 		}
-		_.pcontainers = new Array();
-		_.pcontainer_depths = new Array();
-		_.bgcontainers = new Array();
-		_.bgcontainer_depths = new Array();
+		_.pcontainers = [];
+		_.pcontainer_depths = [];
+		_.bgcontainers = [];
+		_.bgcontainer_depths = [];
 
 		opt.c.find('.tp-revslider-slidesli .slotholder, .tp-revslider-slidesli .rs-background-video-layer').each(function() {
 			var t = jQuery(this),
@@ -152,7 +152,7 @@ jQuery.extend(true,_R, {
 							punchgs.TweenLite.to(pc,s,{force3D:"auto",x:offsh,ease:punchgs.Power3.easeOut,overwrite:"all"});
 						else
 							punchgs.TweenLite.to(pc,s,{force3D:"auto",x:offsh,y:offsv,ease:punchgs.Power3.easeOut,overwrite:"all"});
-				};
+				}
 
 				if (_.type=="3D" || _.type=="3d") {
 					var sctor = '.tp-revslider-slidesli .dddwrapper, .dddwrappershadow, .tp-revslider-slidesli .dddwrapper-layer, .tp-static-layers .dddwrapper-layer';
@@ -269,7 +269,7 @@ jQuery.extend(true,_R, {
 				
 		// COLLECT ALL ELEMENTS WHICH NEED FADE IN/OUT ON PARALLAX SCROLL
 		var _s = opt.scrolleffect;
-		_s.bgs = new Array();		
+		_s.bgs = [];
 
 		if (_s.on) {		
 			if (_s.on_slidebg==="on")

@@ -381,7 +381,7 @@ var template = (function () {
           bodyClass = editor.getParam('body_class', '', 'hash');
           bodyClass = bodyClass[editor.id] || '';
         }
-        html = '<!DOCTYPE html>' + '<html>' + '<head>' + contentCssLinks_1 + '</head>' + '<body class="' + bodyClass + '">' + html + '</body>' + '</html>';
+        html = '<!DOCTYPE html>' + '<html>' + '<head>' + contentCssLinks_1 + '<title></title></head>' + '<body class="' + bodyClass + '">' + html + '</body>' + '</html>';
       }
       return Templates.replaceTemplateValues(html, Settings.getPreviewReplaceValues(editor));
     };

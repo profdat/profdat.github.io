@@ -308,7 +308,7 @@
 					var bt = container.parent().find('.tp-bannertimer'),
 						opt = bt.data('opt');
 					if (opt.callBackArray === undefined)
-						opt.callBackArray = new Array();
+						opt.callBackArray = [];
 					opt.callBackArray.push(callback);						
 				}
 			})
@@ -590,7 +590,7 @@ jQuery.extend(true, _R, {
 
 	//	-	CHECK IF BROWSER IS IE		-		
 	isIE : function( version, comparison ){
-	    var $div = jQuery('<div style="display:none;"/>').appendTo(jQuery('body'));
+	    var $div = jQuery('<div style="display:none;"></div>').appendTo(jQuery('body'));
 	    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;</a><![endif]-->');
 	    var ieTest = $div.find('a').length;
 	    $div.remove();
@@ -904,7 +904,7 @@ var lAjax = function(s,o) {
 }
 
 var getNeededScripts = function(o,c) {	
-	var n = new Object(),
+	var n = {},
 		_n = o.navigation;
 	
 	n.kenburns = false;
@@ -1173,7 +1173,7 @@ var initSlider = function (container,opt) {
     opt.slayers = container.find('.tp-static-layers');
 
     if (opt.waitForInit == true) 
-    	return;
+
     else {
     	container.data('opt',opt);
     	runSlider(container,opt);
@@ -1195,7 +1195,7 @@ var initSlider = function (container,opt) {
 
 	// RANDOMIZE THE SLIDER SHUFFLE MODE
 	if (opt.shuffle=="on") {		
-		var fsa = new Object,
+		var fsa = {},
 			fli = opt.ul.find('>li:first-child');
 		fsa.fstransition = fli.data('fstransition');
 		fsa.fsmasterspeed = fli.data('fsmasterspeed');
@@ -1220,12 +1220,12 @@ var initSlider = function (container,opt) {
 	opt.inli = opt.ul.find('>li.tp-invisible-slide');
 
 
-	opt.thumbs = new Array();		
+	opt.thumbs = [];
 	
 	opt.slots=4;
 	opt.act=-1;					
 	opt.firststart=1;
-	opt.loadqueue = new Array();
+	opt.loadqueue = [];
 	opt.syncload = 0;
 	opt.conw = container.width();
 	opt.conh = container.height();
@@ -1245,8 +1245,8 @@ var initSlider = function (container,opt) {
 		li.addClass("tp-revslider-slidesli");
 		if (li.data('index')===undefined) li.data('index','rs-'+Math.round(Math.random()*999999));
 
-		var obj = new Object;
-		obj.params = new Array();
+		var obj = {};
+		obj.params = [];
 		
 		obj.id = li.data('index');
 		obj.src = li.data('thumb')!==undefined ? li.data('thumb') : img.data('lazyload') !== undefined ? img.data('lazyload') : img.attr('src');					
@@ -1388,7 +1388,7 @@ var initSlider = function (container,opt) {
 					
 
 		// PREPARE VIDEO PLAYERS
-		var addedApis = new Object();				
+		var addedApis = {};
 		addedApis.addedyt=0;
 		addedApis.addedvim=0;
 		addedApis.addedvid=0;
@@ -1670,7 +1670,7 @@ var initSlider = function (container,opt) {
 var cArray = function(b,l) {		
 	if (!jQuery.isArray(b)) {
 		var t = b;
-		b = new Array();
+		b = [];
 		b.push(t);
 	}		
 	if (b.length<l) {			
@@ -1720,7 +1720,7 @@ var checkHoverDependencies = function(_nc,opt) {
 						if (_R.endMoveCaption) _R.endMoveCaption(tnc,null,null,opt);	
 					});
 			});			
-			opt.layersonhover = new Array;
+			opt.layersonhover = [];
 		} 				
 		opt.layersonhover.push(_nc);
 	}
@@ -2086,7 +2086,7 @@ var addToLoadQueue = function(src,opt,prio,type,staticlayer) {
 
 
 	if (!alreadyexist) {		
-			var loadobj = new Object();			
+			var loadobj = {};
 			loadobj.src = src;
 			loadobj.starttoload = jQuery.now();
 			loadobj.type = type || "img";
@@ -2115,7 +2115,7 @@ var loadImages = function(container,opt,prio,staticlayer) {
 
 // FIND SEARCHED IMAGE/SRC IN THE LOAD QUEUE
 var getLoadObj = function(opt,src) {	
-	var obj = new Object();
+	var obj = {};
 	if (opt.loadqueue)
 		jQuery.each(opt.loadqueue, function(index,queue) {			
 			if (queue.src == src) obj = queue;

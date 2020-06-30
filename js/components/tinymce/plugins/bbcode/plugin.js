@@ -62,10 +62,10 @@ var bbcode = (function () {
       rep(/\[\/i\]/gi, '</em>');
       rep(/\[u\]/gi, '<u>');
       rep(/\[\/u\]/gi, '</u>');
-      rep(/\[url=([^\]]+)\](.*?)\[\/url\]/gi, '<a href="$1">$2</a>');
-      rep(/\[url\](.*?)\[\/url\]/gi, '<a href="$1">$1</a>');
-      rep(/\[img\](.*?)\[\/img\]/gi, '<img src="$1" />');
-      rep(/\[color=(.*?)\](.*?)\[\/color\]/gi, '<font color="$1">$2</font>');
+      rep(/\[url=([^\]]+)\](.*?)\[\/url\]/gi, '<!--suppress ALL --><a href="$1">$2</a>');
+      rep(/\[url\](.*?)\[\/url\]/gi, '<!--suppress ALL --><a href="$1">$1</a>');
+      rep(/\[img\](.*?)\[\/img\]/gi, '<!--suppress ALL --><img src="$1" />');
+      rep(/\[color=(.*?)\](.*?)\[\/color\]/gi, '<span style="color: $1; ">$2</span>');
       rep(/\[code\](.*?)\[\/code\]/gi, '<span class="codeStyle">$1</span>&nbsp;');
       rep(/\[quote.*?\](.*?)\[\/quote\]/gi, '<span class="quoteStyle">$1</span>&nbsp;');
       return s;

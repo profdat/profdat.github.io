@@ -543,7 +543,7 @@ var initMouseScroll = function(container,opt) {
 			e.preventDefault(e);    		
 			return false;
 		} else {			
-			return;
+
 		}
 	});
 };
@@ -577,7 +577,7 @@ var swipeAction = function(container,opt,vertical) {
 	if (!jQuery.fn.swipetp) jQuery.fn.swipetp = jQuery.fn.swipe;
 	if (!jQuery.fn.swipetp.defaults || !jQuery.fn.swipetp.defaults.excludedElements) 
 		if (!jQuery.fn.swipetp.defaults) 
-			jQuery.fn.swipetp.defaults = new Object();
+			jQuery.fn.swipetp.defaults = {};
 
 	jQuery.fn.swipetp.defaults.excludedElements = "label, button, input, select, textarea, .noSwipe"
 

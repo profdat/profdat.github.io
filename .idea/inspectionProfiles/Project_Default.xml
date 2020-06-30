@@ -1,0 +1,82 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="41">
+            <item index="0" class="java.lang.String" itemvalue="tp-bottom\\" />
+            <item index="1" class="java.lang.String" itemvalue="tp-resizeme\\" />
+            <item index="2" class="java.lang.String" itemvalue="rev-btn" />
+            <item index="3" class="java.lang.String" itemvalue="\\" />
+            <item index="4" class="java.lang.String" itemvalue="rs-parallaxlevel-5\\" />
+            <item index="5" class="java.lang.String" itemvalue="tp-shapewrapper" />
+            <item index="6" class="java.lang.String" itemvalue="tp-shape" />
+            <item index="7" class="java.lang.String" itemvalue="rs-parallaxlevel-4\\" />
+            <item index="8" class="java.lang.String" itemvalue="rev_row_zone_middle\\" />
+            <item index="9" class="java.lang.String" itemvalue="center\\" />
+            <item index="10" class="java.lang.String" itemvalue="fullscreenbanner\\" />
+            <item index="11" class="java.lang.String" itemvalue="fullscreen-container\\" />
+            <item index="12" class="java.lang.String" itemvalue="tp-static-layer\\" />
+            <item index="13" class="java.lang.String" itemvalue="tp-svg-layer" />
+            <item index="14" class="java.lang.String" itemvalue="tp-resizeme" />
+            <item index="15" class="java.lang.String" itemvalue="links" />
+            <item index="16" class="java.lang.String" itemvalue="tp-svg-layer\\" />
+            <item index="17" class="java.lang.String" itemvalue="tp-no-events" />
+            <item index="18" class="java.lang.String" itemvalue="tp-videolayer\\" />
+            <item index="19" class="java.lang.String" itemvalue="disabled_lc" />
+            <item index="20" class="java.lang.String" itemvalue="fullscreenvideo" />
+            <item index="21" class="java.lang.String" itemvalue="three\\" />
+            <item index="22" class="java.lang.String" itemvalue="two\\" />
+            <item index="23" class="java.lang.String" itemvalue="one\\" />
+            <item index="24" class="java.lang.String" itemvalue="longdesc" />
+            <item index="25" class="java.lang.String" itemvalue="webkitallowfullscreen" />
+            <item index="26" class="java.lang.String" itemvalue="mozallowfullscreen" />
+            <item index="27" class="java.lang.String" itemvalue="rev_row_zone_bottom\\" />
+            <item index="28" class="java.lang.String" itemvalue="rs-slideloop\\" />
+            <item index="29" class="java.lang.String" itemvalue="fullwidthabanner\\" />
+            <item index="30" class="java.lang.String" itemvalue="fullwidthbanner-container\\" />
+            <item index="31" class="java.lang.String" itemvalue="rs-parallaxlevel-14\\" />
+            <item index="32" class="java.lang.String" itemvalue="blurslider-gradient" />
+            <item index="33" class="java.lang.String" itemvalue="rs-parallaxlevel-3\\" />
+            <item index="34" class="java.lang.String" itemvalue="rs-pulse\\" />
+            <item index="35" class="java.lang.String" itemvalue="rs-parallaxlevel-2\\" />
+            <item index="36" class="java.lang.String" itemvalue="tp-blackshadow\\" />
+            <item index="37" class="java.lang.String" itemvalue="tp-whiteshadow\\" />
+            <item index="38" class="java.lang.String" itemvalue="tp-blendvideo" />
+            <item index="39" class="java.lang.String" itemvalue="tp-blackshadow" />
+            <item index="40" class="java.lang.String" itemvalue="tp-whiteshadow" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="14">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="alloy.field." />
+            <item index="7" class="java.lang.String" itemvalue="alloy." />
+            <item index="8" class="java.lang.String" itemvalue="bottom" />
+            <item index="9" class="java.lang.String" itemvalue="top" />
+            <item index="10" class="java.lang.String" itemvalue="div" />
+            <item index="11" class="java.lang.String" itemvalue="a" />
+            <item index="12" class="java.lang.String" itemvalue="img" />
+            <item index="13" class="java.lang.String" itemvalue="support" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myAdditionalRequiredHtmlAttributes" value="src,src,src,src,src" />
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

@@ -591,7 +591,7 @@ var help = (function () {
         }).join('');
         return '<div data-mce-tabstop="1" tabindex="-1">' + '<p><b>' + global$2.translate('Premium plugins:') + '</b></p>' + '<ul>' + premiumPluginList + '</ul><br />' + '<p style="float: right;"><a href="https://www.tiny.cloud/pricing/?utm_campaign=editor_referral&utm_medium=help_dialog&utm_source=tinymce" target="_blank">' + global$2.translate('Learn more...') + '</a></p>' + '</div>';
       };
-      var makeLink = curry(supplant, '<a href="${url}" target="_blank" rel="noopener">${name}</a>');
+      var makeLink = curry(supplant, '<!--suppress ALL --><a href="${url}" target="_blank" rel="noopener">${name}</a>');
       var maybeUrlize = function (editor, key) {
         return find(PluginUrls.urls, function (x) {
           return x.key === key;

@@ -66,7 +66,7 @@ if (as)
 					_tnc = jQuery(_tnc);
 					var videotoggledby = _tnc.data('videotoggledby');
 					if (videotoggledby == undefined)
-						videotoggledby = new Array();
+						videotoggledby = [];
 					videotoggledby.push(_nc);					
 					_tnc.data('videotoggledby',videotoggledby)				
 				});
@@ -76,7 +76,7 @@ if (as)
 					_tnc = jQuery(_tnc);
 					var layertoggledby = _tnc.data('layertoggledby');
 					if (layertoggledby == undefined)
-						layertoggledby = new Array();
+						layertoggledby = [];
 					layertoggledby.push(_nc);					
 					_tnc.data('layertoggledby',layertoggledby);
 					_tnc.data('triggered_startstatus',a.layerstatus);		
@@ -88,7 +88,7 @@ if (as)
 					_tnc = jQuery(_tnc);
 					var videomutetoggledby = _tnc.data('videomutetoggledby');
 					if (videomutetoggledby == undefined)
-						videomutetoggledby = new Array();
+						videomutetoggledby = [];
 					videomutetoggledby.push(_nc);					
 					_tnc.data('videomutetoggledby',videomutetoggledby);				
 				});
@@ -98,17 +98,17 @@ if (as)
 					_tnc = jQuery(_tnc);
 					var videomutetoggledby = _tnc.data('videomutetoggledby');
 					if (videomutetoggledby == undefined)
-						videomutetoggledby = new Array();
+						videomutetoggledby = [];
 					videomutetoggledby.push(_nc);					
 					_tnc.data('videomutetoggledby',videomutetoggledby);				
 				});
 			break;
 			case "toggleslider":
-				if (opt.slidertoggledby == undefined) opt.slidertoggledby = new Array();
+				if (opt.slidertoggledby == undefined) opt.slidertoggledby = [];
 					opt.slidertoggledby.push(_nc);
 			break;
 			case "togglefullscreen":								
-				if (opt.fullscreentoggledby == undefined) opt.fullscreentoggledby = new Array();
+				if (opt.fullscreentoggledby == undefined) opt.fullscreentoggledby = [];
 				opt.fullscreentoggledby.push(_nc);													
 			break;
 
