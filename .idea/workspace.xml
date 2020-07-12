@@ -21,50 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f1510f3-6ab6-4efb-b265-f19e78466be6" name="Default Changelist" comment="Actualización 15.06.20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.dev.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-beforeafterslider1.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-beforeafterslider1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-distortion-addon.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-distortion-addon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-particle-effect-one1.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/jquery.revslider-particle-effect-one1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/addons/revolution.addon.duotonefilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/addons/revolution.addon.duotonefilters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.kenburn.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.layeranimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.migration.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.parallax.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.slideanims.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.video.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/extensions/source/revolution.extension.video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-360-degree-panorama.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-360-degree-panorama.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-fitness-club-template3.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-fitness-club-template3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-mountain-parallax-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-mountain-parallax-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-overexposure-transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.revslider-overexposure-transition.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/jquery.themepunch.revolution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/source/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/source/jquery.themepunch.revolution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/rs-plugin/js/source/tp-color-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/include/rs-plugin/js/source/tp-color-picker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/bbcode/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/fullpage/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/help/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/help/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/imagetools/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/preview/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/preview/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/table/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/table/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/plugins/template/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/plugins/template/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/themes/mobile/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/themes/mobile/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/themes/silver/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/themes/silver/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/components/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components/tinymce/tinymce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style - 053841- azul oscuro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style - EECA29 - amarillo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-import.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-rtl-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-vars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.less" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +128,9 @@
       <workItem from="1593267135939" duration="1468000" />
       <workItem from="1593299306556" duration="4694000" />
       <workItem from="1593485731249" duration="116000" />
+      <workItem from="1593874272972" duration="267000" />
+      <workItem from="1593878049071" duration="529000" />
+      <workItem from="1594223949957" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Actualización 15.06.20">
       <created>1592251563779</created>
