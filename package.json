@@ -1,0 +1,24 @@
+{
+  "name": "profdat.github.io",
+  "version": "1.1.0",
+  "description": "Página WEB del proyecto ATHENDAT",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athendat/athendat.github.io.git"
+  },
+  "author": "Frank Rodriguez Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athendat/athendat.github.io/issues"
+  },
+  "homepage": "https://github.com/athendat/athendat.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "php": "^1.0.1"
+  }
+}
